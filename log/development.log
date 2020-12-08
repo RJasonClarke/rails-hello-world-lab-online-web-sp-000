@@ -195,3 +195,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 17ms (Views: 7.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/hello_world" for 172.10.57.148 at 2020-12-08 01:25:55 +0000
+Processing by HelloWorldController#hello_world as HTML
+  Rendering hello_world/hello_world.erb within layouts/application
+  Rendered hello_world/hello_world.erb within layouts/application (0.3ms)
+Completed 200 OK in 289ms (Views: 288.6ms | ActiveRecord: 0.0ms)
+
+
